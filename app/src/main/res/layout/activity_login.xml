@@ -8,7 +8,7 @@
     android:paddingLeft="@dimen/activity_horizontal_margin"
     android:paddingRight="@dimen/activity_horizontal_margin"
     android:paddingTop="@dimen/activity_vertical_margin"
-    android:background="#d0d1b7"
+    android:background="#002046"
     tools:context="com.example.enamy.perfect_fit.LoginActivity">
 
     <ScrollView
@@ -28,6 +28,8 @@
                 android:layout_width="match_parent"
                 android:inputType="textPersonName"
                 android:hint="Name"
+                android:textColorHint="#FFFFFF"
+                android:textColor="#FFFFFF"
                 android:ems="10"
                 android:id="@+id/editText3"
                 android:layout_height="70dp"
@@ -37,7 +39,9 @@
             <EditText
                 android:layout_width="match_parent"
                 android:layout_height="70dp"
+                android:textColorHint="#FFFFFF"
                 android:inputType="textPersonName"
+                android:textColor="#FFFFFF"
                 android:hint="Age"
                 android:ems="10"
                 android:id="@+id/editText2" />
@@ -45,7 +49,9 @@
             <EditText
                 android:layout_width="match_parent"
                 android:layout_height="70dp"
+                android:textColor="#FFFFFF"
                 android:inputType="textPersonName"
+                android:textColorHint="#FFFFFF"
                 android:hint="Email"
                 android:ems="10"
                 android:id="@+id/editText5" />
@@ -53,8 +59,10 @@
             <EditText
                 android:layout_width="match_parent"
                 android:layout_height="70dp"
+                android:textColor="#FFFFFF"
                 android:inputType="textPassword"
                 android:ems="10"
+                android:textColorHint="#FFFFFF"
                 android:id="@+id/editText"
                 android:layout_weight="0.91"
                 android:hint="Password"
@@ -64,8 +72,10 @@
             <EditText
                 android:layout_width="match_parent"
                 android:layout_height="70dp"
+                android:textColor="#FFFFFF"
                 android:inputType="textPersonName"
                 android:ems="10"
+                android:textColorHint="#FFFFFF"
                 android:id="@+id/editText6"
                 android:layout_weight="0.91"
                 android:hint="Location"
@@ -75,7 +85,9 @@
                 android:layout_width="match_parent"
                 android:inputType="textPersonName"
                 android:hint="Fitness Goals"
+                android:textColor="#FFFFFF"
                 android:ems="10"
+                android:textColorHint="#FFFFFF"
                 android:id="@+id/editText4"
                 android:layout_weight="2.53"
                 android:layout_height="120dp" />

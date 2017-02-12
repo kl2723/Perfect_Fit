@@ -2,7 +2,7 @@
     <string name="app_name">Perfect_Fit</string>
 
     <!-- Strings related to login -->
-    <string name="app_name">Sign Up</string>
+
     <string name="ingredients">Ingredients you do not want to consume</string>
     <string name="firstlastname">Name</string>
     <string name="username">Username</string>
